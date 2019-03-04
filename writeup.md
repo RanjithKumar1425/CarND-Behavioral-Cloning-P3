@@ -19,8 +19,8 @@ The goals / steps of this project are the following:
 [image3]: ./writeImage/org_cropped_and_resized.png "Cropped and resized"
 [image4]: ./writeImage/flipedImage.png "Flipped Image"
 [image5]: ./writeImage/flip_bgr2rgd.png "Flipped BRG to RGB converted"
-[image6]: ./writeImage/flipped_cropped_and_resized.png "Flipped Cropped and resized"
-[image7]: ./writeImage/placeholder_small.png "Flipped Image"
+[image6]: ./writeImage/flipped_cropped_resized.png "Flipped Cropped and resized"
+[image7]: ./writeImage/modelLayer.png "Flipped Image"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -142,18 +142,18 @@ I  augmentented the data set as below:
  * Cropped the top part of the Image
  * Resized the Image to size [160, 70]
 
-##Sample Augumented Images:
-###Original Center Camera Image
+## Sample Augumented Images:
+### Original Center Camera Image
 ![alt text][image1]
-###BGR2RGB Converted
+### BGR2RGB Converted
 ![alt text][image2]
-###Croped and Resized Image
+### Croped and Resized Image
 ![alt text][image3]
-###Fliped Center Camera Image
+### Fliped Center Camera Image
 ![alt text][image4]
-###Fliped BGR2RGB Converted 
+### Fliped BGR2RGB Converted 
 ![alt text][image5]
-###Fliped Croped and Resized Image
+### Fliped Croped and Resized Image
 ![alt text][image6]
 
 
