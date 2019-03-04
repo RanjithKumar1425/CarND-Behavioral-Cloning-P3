@@ -143,17 +143,17 @@ I  augmentented the data set as below:
  * Resized the Image to size [160, 70]
 
 ##Sample Augumented Images:
-Original Center Camera Image
+###Original Center Camera Image
 ![alt text][image1]
-BGR2RGB Converted
+###BGR2RGB Converted
 ![alt text][image2]
-Croped and Resized Image
+###Croped and Resized Image
 ![alt text][image3]
-Fliped Center Camera Image
+###Fliped Center Camera Image
 ![alt text][image4]
-Fliped BGR2RGB Converted 
+###Fliped BGR2RGB Converted 
 ![alt text][image5]
-Fliped Croped and Resized Image
+###Fliped Croped and Resized Image
 ![alt text][image6]
 
 
