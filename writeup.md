@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [image2]: ./writeImage/org_bgr2rgb.png "BRG to RGB converted"
 [image3]: ./writeImage/org_cropped_and_resized.png "Cropped and resized"
 [image4]: ./writeImage/flipedImage.png "Flipped Image"
-[image5]: ./writeImage/flip_bgr2rgd.png "Flipped BRG to RGB converted"
+[image5]: ./writeImage/flip_bgr2rgb.png "Flipped BRG to RGB converted"
 [image6]: ./writeImage/flipped_cropped_resized.png "Flipped Cropped and resized"
 [image7]: ./writeImage/modelLayer.png "Flipped Image"
 
@@ -89,47 +89,7 @@ The final model architecture was pretty much same as the staring approcch. I hav
 
 My Model has Below layers:
 
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-lambda_1 (Lambda)            (None, 70, 160, 3)        0         
-_________________________________________________________________
-conv2d_1 (Conv2D)            (None, 33, 78, 24)        1824      
-_________________________________________________________________
-activation_1 (Activation)    (None, 33, 78, 24)        0         
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 15, 37, 36)        21636     
-_________________________________________________________________
-activation_2 (Activation)    (None, 15, 37, 36)        0         
-_________________________________________________________________
-conv2d_3 (Conv2D)            (None, 6, 17, 48)         43248     
-_________________________________________________________________
-activation_3 (Activation)    (None, 6, 17, 48)         0         
-_________________________________________________________________
-conv2d_4 (Conv2D)            (None, 4, 15, 64)         27712     
-_________________________________________________________________
-activation_4 (Activation)    (None, 4, 15, 64)         0         
-_________________________________________________________________
-conv2d_5 (Conv2D)            (None, 2, 13, 64)         36928     
-_________________________________________________________________
-activation_5 (Activation)    (None, 2, 13, 64)         0         
-_________________________________________________________________
-flatten_1 (Flatten)          (None, 1664)              0         
-_________________________________________________________________
-dense_1 (Dense)              (None, 100)               166500    
-_________________________________________________________________
-activation_6 (Activation)    (None, 100)               0         
-_________________________________________________________________
-dense_2 (Dense)              (None, 50)                5050      
-_________________________________________________________________
-activation_7 (Activation)    (None, 50)                0         
-_________________________________________________________________
-dense_3 (Dense)              (None, 10)                510       
-_________________________________________________________________
-activation_8 (Activation)    (None, 10)                0         
-_________________________________________________________________
-dense_4 (Dense)              (None, 1)                 11        
-=================================================================
+![alt text][image7]
 
 #### 3. Creation of the Training Set & Training Process
 
