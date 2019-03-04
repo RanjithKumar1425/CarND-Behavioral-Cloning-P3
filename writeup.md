@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [image4]: ./writeImage/flipedImage.png "Flipped Image"
 [image5]: ./writeImage/flip_bgr2rgb.png "Flipped BRG to RGB converted"
 [image6]: ./writeImage/flipped_cropped_resized.png "Flipped Cropped and resized"
-[image7]: ./writeImage/modelLayer.png "Flipped Image"
+[image7]: ./writeImage/modelLayer.PNG "Flipped Image"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
